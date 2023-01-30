@@ -15,7 +15,7 @@ To run this code, you will need a machine with Python 3 installed.
  You can also modify the code to change the maximum number of clients N that the server can accept, as well as the IP address and port number to bind the server to.
 
 ## Code Description
-The code uses the socket module in Python to create a TCP server. A threading module is used to handle multiple clients concurrently. Each client is handled in its own thread, allowing the server to handle multiple clients at the same time. The code also uses a lock to ensure that only one thread can modify the shared data structures at a time.
+The code uses socket module in Python to create a TCP server. A threading module is used to handle multiple clients concurrently. Each client is handled in its own thread, allowing the server to handle multiple clients at the same time. The code also uses a lock to ensure that only one thread can modify the shared data structures at a time.
 
 The code listens for incoming connections and accepts them. If the number of clients has not reached the limit N, the server accepts the connection, assigns a rank to the client, and adds the connection to the list of clients. If the number of clients has reached the limit, the server rejects the connection.
 
@@ -33,6 +33,6 @@ If a client disconnects, the code removes the client's connection and rank and a
 
 ## Authors
 
-- [Elijah obara samson](https://www.github.com/obaraelijah)
+- [Elijah Obara Samson](https://www.github.com/obaraelijah)
 
 
