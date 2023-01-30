@@ -9,7 +9,7 @@ To run this code, you will need a machine with Python 3 installed.
 1. Clone this repository
 2. Open a terminal in the directory where you cloned the repository
 3. Run the following command to start the server:
-`python server.py
+`python Tcp.py
 `
 
  You can also modify the code to change the maximum number of clients N that the server can accept, as well as the IP address and port number to bind the server to.
